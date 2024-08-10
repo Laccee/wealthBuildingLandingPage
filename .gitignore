@@ -1,5 +1,15 @@
-_site
-.sass-cache
-.jekyll-cache
+# Jekyll specific
+_site/
+.sass-cache/
+.jekyll-cache/
 .jekyll-metadata
+.DS_Store
+
+# Log and database files
+*.log
+*.sqlite3
+
+# Node modules
+node_modules/
+
 vendor
